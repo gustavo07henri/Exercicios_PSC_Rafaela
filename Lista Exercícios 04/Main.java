@@ -292,68 +292,38 @@ public class Main {
                 }
                 break;
             case 3:
-                int a = 1;
-                while (key) {
-                    int r = coluna;
-                    for (int i = 0; i < coluna; i++) {
-                        System.out.print("*");
+               for(int i = 0; i < coluna; i++){
+                    for(int j = 0; j < i; j++){
+                            System.out.print("  ");
                     }
-                    System.out.println();
-                    coluna --;
-
-                    if (r > coluna) {
-                        if( coluna == 4)
-                            a++;
-                        for(int j = 0 ; j < a; j++){
-                            System.out.print(" ");
-                        }
-                        if (a != coluna) {
-                            a++;
-                        }
+                    for(int j = i; j < coluna; j++){
+                            System.out.print("* ");
                     }
-                    if (coluna == 0) 
-                        key = false;
+                    System.out.println("");
                 }
             break;
 
             
                 
             case 4:
-                int r = 1;
-                int p = coluna;
-                while (key) {
-                    
-                    for(int i = 0; i < r; i++){
+                for(int i = 0; i<coluna; i++){
+                    for(int j = 0; j < i; j++){
                         System.out.print("* ");
-                        
                     }
-                    System.out.println(" ");
-                    coluna --;
-
-                    if(r < p)
-                        r++;
-                    if(coluna == 0)
-                        key = false;
+                    System.out.println("");
                 }
                 break;
             case 5:
-                int teste = coluna -1;
-                int colunaAb = coluna, um = 1;
-
-                while (key) {
-                    for (int i = 0; i < teste; i++){
-                        System.out.print("  ");
+                int contadorNegativoColuna = coluna;
+                for(int i = 1; i <= coluna; i++){
+                    for(int j = 1; j < contadorNegativoColuna; j++){
+                        System.out.print("  "); 
                     }
-                    teste --;   
-                    for ( int j = 0; j < um; j++){
+                    contadorNegativoColuna --;
+                    for(int j = 0; j < i; j++){
                         System.out.print("* ");
                     }
-                    System.out.println(" ");
-
-                    if (um < colunaAb)
-                        um ++;
-                    if(teste == 0)
-                        key = false;
+                    System.out.println("  ");
                 }
                 
                 break;
