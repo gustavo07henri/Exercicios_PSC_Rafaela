@@ -234,13 +234,11 @@ public class Main {
         
         }
         public static void Ex07(Scanner input){
-            String produto;
             double preco, valor_total, total_com_desconto;
             double quantidade;
     
             System.out.println("Este programa irá calcular o desconto e o valor final de sua compra.");
             System.out.print("Insira o produto desejado: ");
-            produto = input.nextLine();
             System.out.print("Insira o valor do produto R$: ");
             preco = input.nextDouble();
             System.out.print("Insira a quantidade do produto: ");
@@ -353,8 +351,6 @@ public class Main {
     }
     public static void Ex11(Scanner input){
         int entrada_usuario;
-        double deposito, saque;
-
         System.out.println("""
                 Bem vindo ao banco XXXX-XXXX
                     DIGITE UM NÚMERO CORRESPONDENTE A UMA DAS OPÇÕES ABAIXO.
@@ -380,11 +376,9 @@ public class Main {
                 break;
             case 3:
                 System.out.println("Insira o valor a ser depositado: ");
-                deposito = input.nextDouble();
                 break;
             case 4:
                 System.out.println("Insira o valor que deseja sacar: ");
-                saque = input.nextDouble();
                 break;
             case 5:
                 System.out.println("Muito obrigado");
