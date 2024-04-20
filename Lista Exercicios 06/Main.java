@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main {
 
@@ -54,25 +53,9 @@ public static void main(String[] args) {
                 if(vetor[j] % i == 0){
                     contador ++;
                 }
-                if(contador <= 2){
-                    System.out.print("O número "+ vetor[j]+" de posição "+j+" é primo.");
-                }
             }
-        }
-        
-        for (int i = 0; i < vetor.length; i++) {
-            System.out.print("Escreva um valor para o incluir no vetor: ");
-            vetor [i] = input.nextInt();
-        }
-        for (int j = 0; j < vetor.length; j++) {
-            contador = 0;
-            for(int i = 1; i < vetor.length; i++){
-                if(vetor[j] % i == 0){
-                    contador ++;
-                }
-                if(contador <= 2){
-                    System.out.print("O número "+ vetor[j]+" de posição "+j+" é primo.");
-                }
+            if(contador <= 2){
+                System.out.print("O número "+ vetor[j]+" de posição "+j+" é primo.");
             }
         }
       
