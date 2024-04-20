@@ -23,7 +23,7 @@ public class Main {
             11 -- Exercício 11
             12 -- Exercício 12
             0 -- para sair.
-                """);
+            """);
             System.out.print("Insira a opção: ");
             insersao = input.nextInt();
 

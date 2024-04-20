@@ -3,9 +3,16 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Lista Exercicios 01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lista Exercicios 02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lista Exercicios 03" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lista Exercicios 05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lista Exercicios 06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lista Exercícios 04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scr" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

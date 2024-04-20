@@ -54,8 +54,8 @@ public static void main(String[] args) {
                     contador ++;
                 }
             }
-            if(contador <= 2){
-                System.out.print("O número "+ vetor[j]+" de posição "+j+" é primo.");
+            if (contador <= 2) {
+                System.out.print("O número " + vetor[j] + " de posição " + j + " é primo.");
             }
         }
       
