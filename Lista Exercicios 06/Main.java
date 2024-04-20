@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -42,6 +43,7 @@ public static void main(String[] args) {
     public static void Ex01 (Scanner input){
         int[] vetor = new int[9];
         int contador;
+<<<<<<< HEAD
 
 
         for (int i = 0; i < vetor.length; i++) {
@@ -59,7 +61,28 @@ public static void main(String[] args) {
                 }
             }
         }
+=======
+>>>>>>> 650f0a186749e35002d54227287a8ca9cb4e9516
 
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Escreva um valor para o incluir no vetor: ");
+            vetor [i] = input.nextInt();
+        }
+        for (int j = 0; j < vetor.length; j++) {
+            contador = 0;
+            for(int i = 1; i < vetor.length; i++){
+                if(vetor[j] % i == 0){
+                    contador ++;
+                }
+                if(contador <= 2){
+                    System.out.print("O número "+ vetor[j]+" de posição "+j+" é primo.");
+                }
+            }
+        }
+      
+           
+        
     }
     public static void Ex02 (Scanner input){
         int[] vetorUm = new int[10];
@@ -89,10 +112,11 @@ public static void main(String[] args) {
             System.out.println(intercalado[i]);
         }
     }
+    
     public static void Ex03 (Scanner input){
 
     }
     public static void Ex04 (Scanner input){
-
+        
     }
 }
