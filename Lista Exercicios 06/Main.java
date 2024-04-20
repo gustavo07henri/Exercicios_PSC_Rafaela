@@ -43,8 +43,6 @@ public static void main(String[] args) {
     public static void Ex01 (Scanner input){
         int[] vetor = new int[9];
         int contador;
-<<<<<<< HEAD
-
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Escreva um valor para o incluir no vetor: ");
@@ -61,10 +59,7 @@ public static void main(String[] args) {
                 }
             }
         }
-=======
->>>>>>> 650f0a186749e35002d54227287a8ca9cb4e9516
-
-
+        
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Escreva um valor para o incluir no vetor: ");
             vetor [i] = input.nextInt();
